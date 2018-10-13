@@ -22,6 +22,17 @@ Page({
       motto: app.courseName
     });
   },
+  //onReady
+  onReady:function(){
+    console.log("页面已经做好准备");
+  },
+  onShow: function () {
+    console.log("页面onShow");
+  },
+  onHide: function () {
+    console.log("页面onHide");
+  },
+
   getUserInfo: function(e) {
     console.log(e)
     app.globalData.userInfo = e.detail.userInfo

@@ -1,6 +1,8 @@
 {
   "pages":[
+    "pages/test_life_function/index",
     "pages/index/index",
+    
     "pages/logs/logs"  
   ],
   "window":{
