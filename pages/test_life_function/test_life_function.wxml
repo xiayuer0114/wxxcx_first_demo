@@ -1,0 +1,10 @@
+<!--index.wxml
+
+bindtap='clickeme':绑定clickme事件
+
+-->
+<view class="container">
+  <view class="usermotto">
+    <text class='txt' style="color:{{color}};" bindtap='clickeme'>{{motto}}</text>
+  </view>
+</view>

@@ -1,0 +1,14 @@
+<!--数据绑定，类似vue
+内容绑定：
+属性绑定：id="myid-{{id}}"
+控制绑定：
+关键字绑定：checked:"{{true}}"
+运算：{{ a+b==3 ? "事3"："不是3"}}
+
+-->
+<view class="container">
+  <view class="usermotto">
+    <text class='txt' style="color:{{color}};">内容绑定：{{motto}}123</text>
+  </view>
+
+</view>

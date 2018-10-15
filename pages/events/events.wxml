@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<!--  
+  事件：
+    bindtap:点击事件，
+        clickme:function(){
+        console.log("被点击事件");
+
+        clickme:function(e){
+        console.log(e);
+        console.log(event.currentTarget.dataset.customname); //可以获取数据
+  
+
+
+  data-customName:可以是自己定义的数据，data-后面的数据自己定义，微信会将customName自动转换为customname
+  },
+-->
+<view class="container">
+  <view id='tapTest' bindtap='clickme' data-customName="xiaoxia">click me</view>
+</view>

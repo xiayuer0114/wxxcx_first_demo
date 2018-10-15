@@ -1,0 +1,18 @@
+<!--index.wxml
+  ...person:传递对象
+  msg:普通变量
+
+-->
+<view class="container">
+
+  
+</view>
+
+<template name="myTemp">
+  <view>姓名：{{name}}</view>
+  <view>年龄：{{age}}</view>
+
+  <view>地址：{{address}}</view>
+</template>
+<template is="myTemp" data="{{...person,name:'xx',age:17}}"></template>
+<template is="myTemp" data="{{...person,name:'xx',age:19}}"></template>

@@ -1,0 +1,24 @@
+<!--数据绑定，类似vue
+内容绑定：
+属性绑定：id="myid-{{id}}"
+控制绑定：
+关键字绑定：checked:"{{true}}"
+运算：{{ a+b==3 ? "事3"："不是3"}}
+
+-->
+<view class="container">
+    <view wx:if="{{age<18}}">未成年 </view>
+    <view wx:elif="{{age>=18 && age<30}}">青年 </view>
+    <view wx:else>年龄大了 </view>
+
+    <block wx-if="{{false}}">
+      <view>块级元素可以放多个view</view>
+      <view>此时是懒加载模式，页面看不到false里面的数据，此时可以用hidden</view>
+    </block>
+    
+    
+    <view hidden="{{true}}">
+      <view>块级元素可以放多个view</view>
+      <view>经常要切换的用hidden比较合适</view>
+    </view>
+</view>

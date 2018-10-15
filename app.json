@@ -1,6 +1,11 @@
 {
   "pages":[
-    "pages/test_life_function/index",
+  
+    "pages/temps/temps",
+    "pages/ifelse/ifelse",
+    "pages/dataBind/dataBind",
+    "pages/events/events",
+    "pages/test_life_function/test_life_function",
     "pages/index/index",
     
     "pages/logs/logs"  
@@ -23,6 +28,7 @@
       }
     ]
   },
+
   "networkTimeout": {
     "request": 10000,
     "downloadFile": 10000

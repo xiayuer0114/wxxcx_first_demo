@@ -1,6 +1,13 @@
-<!--index.wxml-->
+<!--index.wxml
+
+
+git pull origin master --allow-unrelated-histories：从远程拉取到本地
+
+
+-->
 <view class="container">
   <view class="usermotto">
     <text class='txt' style="color:{{color}};">{{motto}}</text>
   </view>
+
 </view>
