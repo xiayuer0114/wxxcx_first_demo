@@ -14,5 +14,12 @@
 
   <view>地址：{{address}}</view>
 </template>
+
+
+
+<!-- 
+  页面内部引用模板 
+  页面外部引用模板：通过import或者include,a引用b，b引用c,a不能直接用c
+  -->
 <template is="myTemp" data="{{...person,name:'xx',age:17}}"></template>
 <template is="myTemp" data="{{...person,name:'xx',age:19}}"></template>

@@ -1,0 +1,14 @@
+var name="校长";
+var age=18;
+
+
+var method=function(obj){
+  return obj;
+}
+
+/*暴露 */
+module.exports={
+  name:name,
+  age:age,
+  method:method
+}

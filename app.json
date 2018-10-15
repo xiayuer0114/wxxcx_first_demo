@@ -1,13 +1,13 @@
 {
   "pages":[
-  
+    "pages/includePage/includePage",
+    "pages/wxs/wxs",
     "pages/temps/temps",
     "pages/ifelse/ifelse",
     "pages/dataBind/dataBind",
     "pages/events/events",
     "pages/test_life_function/test_life_function",
     "pages/index/index",
-    
     "pages/logs/logs"  
   ],
   "window":{

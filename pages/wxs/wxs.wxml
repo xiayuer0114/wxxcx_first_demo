@@ -1,0 +1,23 @@
+<!--index.wxml
+
+
+wxs:模块
+
+-->
+<view class="container">
+  <view class="usermotto">
+    <text class='txt' style="color:{{color}};">{{motto}}</text>
+  </view>
+
+
+<!-- 页面级别的引入和使用-->
+<wxs src="../wxs/module.wxs" module="test"></wxs>
+<view>{{test.name}}</view>
+<view>{{test.age}}</view>
+<view>{{test.method("加油")}}</view>
+
+
+  <!-- 引入外部的模板-->
+  <import src='../temps/temps.wxml'/>
+  <template is="myTemp" data="{{name:'123',age:19}}"/>
+</view>

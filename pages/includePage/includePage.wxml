@@ -1,0 +1,14 @@
+<!--index.wxml
+
+
+git pull origin master --allow-unrelated-histories：从远程拉取到本地
+
+
+-->
+<include src="../includePage/header.wxml"/>
+<view class="container">
+  body
+</view>
+<include src="../includePage/footer.wxml"/>
+
+

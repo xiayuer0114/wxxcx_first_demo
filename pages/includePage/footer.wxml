@@ -1,0 +1,10 @@
+<!--index.wxml
+
+
+git pull origin master --allow-unrelated-histories：从远程拉取到本地
+
+
+-->
+<view class="container">
+  footer
+</view>
